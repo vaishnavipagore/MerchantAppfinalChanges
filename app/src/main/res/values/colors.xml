@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#fff</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="pay">#3498DB</color>
+    <color name="username">#0B5DB0</color>
+    <color name="grey">#E5E8E8</color>
+    <color name="darkblue">#1A5276</color>
+    <!-- Material color -->
+    <color name="black_error">#ff616161</color>
+    <color name="green_success">#ff9ccc65</color>
+    <color name="orange">#ffffc107</color>
+
+    <!-- Blue -->
+    <color name="blue">#03a9f4</color>
+    <color name="light_blue">#b3e5fc</color>
+
+</resources>

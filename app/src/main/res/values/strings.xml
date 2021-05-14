@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">MerchantApp</string>
+    <string name="receiver">Receiver</string>
+    <string name="additional_receiver">Additional receiver</string>
+    <!-- - Receiver -->
+
+    <!-- Service -->
+    <string name="service">Service</string>
+    <string name="additional_service">Additional service</string>
+    <!-- - Service -->
+
+    <string name="custom_toolbar_logo">Custom toolbar logo</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_paycard_host">Host</string>
+    <string name="action_paycard_wipe">Wipe</string>
+
+    <string name="paycards">Paycards</string>
+    <string name="payments">Payments</string>
+
+    <string name="supported_paycards">Supported paycards</string>
+
+    <string name="title_activity_paycard">Paycard Activity</string>
+
+    <string name="host_apdu_description">NFC Host Apdu Service</string>
+
+    <string name="contactless">Contactless</string>
+
+    <string name="title_activity_read_paycard">Read Paycard</string>
+    <string name="description_activity_read_paycard">Hold contactless EMV paycard near the device NFC hardware in order to begin read.</string>
+
+    <string name="title_activity_host_paycard">Host Paycard</string>
+    <string name="description_activity_host_paycard">Hold your device NFC hardware near the EMV payment terminal in order to begin host.</string>
+
+    <string name="nfc_hardware_help">Device NFC hardware is located in or near the device back panel on most NFC phones and tablets.</string>
+
+    <string name="description_waiting_app_compat_activity_read_host">Waiting for tag…</string>
+    <string name="description_warning_app_compat_activity_read_host">Do not move the paycard or the device until process finished.</string>
+
+    <string name="no_paycards">No paycards added</string>
+    <string name="no_payments">No payments made</string>
+
+    <string name="add_new_paycard_subtitle">Consider adding a new one.</string>
+    <string name="add_new_payment_subtitle">Consider making a new one.</string>
+
+    <string name="read">Read</string>
+    <string name="read_hint">Read…</string>
+    <string name="reading">Reading…</string>
+
+    <string name="host">Host</string>
+    <string name="host_hint">Host…</string>
+    <string name="hosting">Hosting…</string>
+
+    <string name="success_read_paycard">Success read paycard</string>
+    <string name="cannot_read_paycard">Cannot read paycard</string>
+
+    <string name="success_host_paycard">Success host paycard</string>
+    <string name="cannot_host_paycard">Cannot host paycard</string>
+
+    <string name="nfc_a">NFC A</string>
+    <string name="nfc_b">NFC B</string>
+
+    <string name="pan_var_name">mApplicationPan</string>
+    <string name="add_date_var_name">mAddDate</string>
+
+    <!-- EMV Specification Abbreviations & Terms -->
+    <string name="pse">PSE (Payment System Environment)</string>
+    <string name="ppse">PPSE (Proximity Payment System Environment)</string>
+    <string name="aid">AID (Application Identifier)</string>
+    <string name="fci">FCI (File Control Information)</string>
+    <string name="application_label">Application Label</string>
+    <string name="pdol">PDOL (Processing Options Data Object List)</string>
+    <string name="gpo">GPO (Get Processing Options)</string>
+    <string name="application_pan">Application PAN (Primary Account Number)</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="application_expiration_date">Application Expiration Date</string>
+    <string name="afl">AFL (Application File Locator)</string>
+    <string name="atc">ATC (Application Transaction Counter)</string>
+    <string name="pin">PIN (Personal Identification Number)</string>
+    <string name="gac">GAC (Generate Application Cryptogram)</string>
+    <string name="log_entry">Log Entry</string>
+    <string name="log_format">Log Format</string>
+    <string name="cdol_1">CDOL1 (Card Risk Management Data Object List 1)</string>
+    <string name="cdol_2">CDOL2 (Card Risk Management Data Object List 2)</string>
+    <!-- - EMV Specification Abbreviations & Terms -->
+
+    <!-- Supported Paycards -->
+    <string name="mastercard">Mastercard (PayPass)</string>
+    <string name="maestro">Maestro (PayPass)</string>
+    <string name="visa">Visa (PayWave)</string>
+    <string name="visa_electron">Visa Electron (PayWave)</string>
+    <!-- - Supported Paycards -->
+
+    <string name="close">Close</string>
+
+    <string name="added">Added</string>
+    <string name="updated">Updated</string>
+
+    <string name="paycard_added">Paycard added</string>
+    <string name="paycard_updated">Paycard updated</string>
+
+    <string name="paycard_host_success">Paycard host is successful</string>
+    <string name="paycard_host_no_success">Paycard host may not be successful</string>
+
+    <string name="paycard_wipe_success">Paycard wipe is successful</string>
+    <string name="paycard_wipe_no_success">Paycard wipe may not be successful</string>
+    <string name="notification_channel_id">notify</string>
+
+
+    <!--cardstring-->
+    <string name="error">Error while reading card data :( \nTry again: tap card and hold for a while.</string>
+    <string name="readingcard">Reading…</string>
+    <string name="blank">Tap card!</string>
+    <string name="card_bank">Bank</string>
+    <string name="card_expire">Expire</string>
+    <string name="card_view_description">Bank card illustration</string>
+    <string name="card_type_description">Card type logo</string>
+    <string name="card_contactless_description">Contactless logo</string>
+    <string name="detail_key">key :</string>
+    <string name="detail_value">value</string>
+
+    <string name="about_description_logo">App logo</string>
+    <string name="about_description_github">Github logo</string>
+    <!-- Card Detail -->
+    <string name="paycard_back_text">Tap your NFC paycard to the back of your phone</string>
+    <string name="extended_card_detail_title">Extended card details</string>
+    <string name="card_representation_title">Card Representation</string>
+
+    <string name="extended_title_AID">Card AID :</string>
+    <string name="extended_title_application_label">Application :</string>
+    <string name="extended_title_pin_try">Pin try left :</string>
+    <string name="extended_title_card_type">Card type :</string>
+    <string name="extended_card_holder_name">Holder name :</string>
+    <string name="extended_title_possible_bank">Card issuer :\n(possible)</string>
+    <string name="extended_title_times">Time(s)</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">Your card doesn\'t provided\ntransaction history</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">Transaction type :</string>
+    <string name="transaction_cryptogram">Cryptogram :</string>
+    <string name="transaction_country">Terminal Country :</string>
+
+    <!-- Transaction type -->
+
+    <!-- Logs -->
+    <string name="mail_subject">[EMV Reader] Log report</string>
+    <string name="mail_popup_title">Send log by mail...</string>
+    <string name="mail_to">android@julien-millau.fr</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">This app was made to read public data on banking NFC cards compliants with EMV norm.</string>
+    <string name="about_source_detail">Source Code and documentation available on <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Application written by <a href="http://julien-millau.fr">Julien Millau</a></string>
+    <string name="about_inapp_text">Help us to improve this app with donation</string>
+    <string name="about_title">About</string>
+    <string name="about_inApp">Donate</string>
+    <!-- Msg -->
+    <string name="billing_success">Thanks for your donation!</string>
+    <string name="card_read">Card read</string>
+    <string name="card_reading">Reading in progress&#8230;</string>
+    <string name="card_deleted">Card data deleted</string>
+    <string name="card_reading_desc">Please do not remove or move card during reading.</string>
+    <string name="nfc_locked">NFC is locked on your card</string>
+    <string name="msg_nfc_not_available">This device doesn\'t have NFC which is required to run this application.</string>
+    <string name="msg_nfc_not_enabled">Please enable NFC and press back to return to this application.</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_info">Info</string>
+    <string name="donate_banner">Help us to improve this app, donate !</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">Please do not move card, try again !</string>
+    <string name="error_card_unknown">Unknown EMV card (Please send logs)</string>
+    <string name="error_link">No web browser found</string>
+    <string name="error_email">No email client found</string>
+
+</resources>
