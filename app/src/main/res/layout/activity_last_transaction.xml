@@ -123,17 +123,34 @@
 
 
                 />
-            <TextView
-                android:text="MID:                     "
-                android:id="@+id/mid"
-                android:layout_marginTop="5dp"
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/black"
-                android:textSize="15sp"
-                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="MID:                     "
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
 
-                />
+                    />
+                <TextView
+                    android:id="@+id/mid"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="0dp"
+
+                    />
+            </LinearLayout>
+
 
 
             <TextView
@@ -172,17 +189,31 @@
                 android:text="RRN:                    "
                 />
 
-            <TextView
 
-                android:id="@+id/tid"
-                android:layout_marginTop="5dp"
+            <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@android:color/black"
-                android:textSize="15sp"
-                android:layout_marginLeft="20dp"
-                android:text="TID:                      "
-                />
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
+                    android:text="TID:                      "
+                    />
+                <TextView
+                    android:id="@+id/tid"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="0dp"
+
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
 
             <TextView
 

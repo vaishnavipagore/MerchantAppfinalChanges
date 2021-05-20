@@ -125,7 +125,7 @@
                 android:background="@color/darkblue"
                 android:gravity="center"
                 android:paddingTop="5sp"
-                android:text="Cardtype"
+                android:text="Last Tran Status"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold" />
 
